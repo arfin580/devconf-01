@@ -44,7 +44,7 @@ justify-content: space-between;
 }
 
 /* Button */
-.common-btn{
+.register01-btn{
     background-color: #2952E3;
     color: white;
     border: none;
@@ -53,7 +53,6 @@ justify-content: space-between;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-
 }
 
 /* banner section */
@@ -66,6 +65,20 @@ align-items: center;
 text-align: center;
 
 }
+
+.register02-btn{
+    background-color: #2952E3;
+    color: white;
+    border: none;
+    padding: 18px 55px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
 
 .banner{
     background-image: url("../assets/banner.jpg");
@@ -82,7 +95,7 @@ text-align: center;
 
 
 
-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.45);
+box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.35);
 
 }
 
@@ -93,16 +106,26 @@ box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.45);
 
 .banner-content h1{
     color: white;
-    font-size: 80px;
+    
     margin-bottom: 25px;
+
+    
+    font-size: 72px;
+    font-weight: 700;
 }
+
 
 .banner-content p{
     color: #d1d5db;
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 40px;
+    max-width: 700px;
 }
+
+
+
+
 
 /* Speakers Section */
 
@@ -175,3 +198,88 @@ box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.45);
     font-size: 14px;
 }
 
+
+
+/* Pricing Section */
+
+.pricing{
+    padding: 100px 80px;
+    text-align: center;
+}
+
+.pricing h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.pricing-subtitle{
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card{
+    width: 320px;
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    text-align: left;
+    background-color: white;
+}
+
+.card h5{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.card h3{
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.card p{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.card ul{
+    margin-bottom: 25px;
+    padding-left: 18px;
+}
+
+.card ul li{
+    margin-bottom: 10px;
+}
+
+.price-btn{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2952E3;
+    border-radius: 8px;
+    background: white;
+    color: #2952E3;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Middle Card */
+
+.pro{
+    background-color: #0F1C2E;
+    color: white;
+}
+
+.pro p{
+    color: #d1d1d1;
+}
+
+.pro-btn{
+    background-color: #2952E3;
+    color: white;
+    border: none;
+}

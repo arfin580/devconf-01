@@ -290,6 +290,17 @@ box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.35);
 
 /* My placeholder */
 
+
+.footer-logo{
+    width: 180px;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+
+
 .footer{
     background: #0B111B;
     padding: 80px 60px 30px;
